@@ -1,0 +1,27 @@
+.container__small-card {
+  display: flex;
+
+  gap: 8px;
+  width: 600px;
+}
+
+.small-card__description {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+}
+
+.small-card__description span {
+  font-size: 12px;
+  color: #c4c1c1;
+}
+
+.small-card__description h3 {
+  text-align: justify;
+}
+
+img {
+  width: 300px;
+  height: 100px;
+}
