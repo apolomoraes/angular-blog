@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
 
+  photoCover:string = "https://source.unsplash.com/random/?developer";
+  contentTitle:string = "lorem ipsum dolor sit amet.";
+  contentDescription:string = "lorem ipsum dolor sit amet consectetur adipisicing elit.";
+
   constructor() { }
 
   ngOnInit(): void {

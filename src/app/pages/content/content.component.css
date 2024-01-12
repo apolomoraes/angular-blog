@@ -1,0 +1,30 @@
+.container__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__content a {
+  text-decoration: none;
+  color: antiquewhite;
+  margin-top: 40px;
+}
+
+.container__details {
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container__content img {
+  min-width: 500px;
+  height: 300px;
+
+  border: 1px solid #a8a3a3;
+  border-radius: 2px;
+}
+
+.container__content p {
+  color: #a8a3a3;
+}
