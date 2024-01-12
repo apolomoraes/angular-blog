@@ -25,8 +25,14 @@
   gap: 2px;
 }
 
-.big-card__description h1 {
+.big-card__description h2 {
   font-size: 20px;
+  cursor: pointer;
+}
+
+.big-card__description h2 a {
+  text-decoration: none;
+  color: white;
 }
 
 .big-card__description p {

@@ -13,10 +13,5 @@
 
 .container__menu-bar ul li {
   cursor: pointer;
-  color: antiquewhite;
-}
-
-.container__menu-bar ul li a {
-  text-decoration: none;
-  color: antiquewhite;
+  color: white;
 }

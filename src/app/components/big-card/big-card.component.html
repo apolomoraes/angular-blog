@@ -4,7 +4,7 @@
     <span>20/10/2023</span>
   </div>
   <div class="big-card__description">
-    <h2>{{ cardTitle }}</h2>
+    <h2><a [routerLink]="['/content', Id]">{{ cardTitle }}</a></h2>
     <p>{{ cardDescription }}</p>
   </div>
 </div>
